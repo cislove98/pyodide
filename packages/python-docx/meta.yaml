@@ -1,0 +1,19 @@
+package:
+  name: python-docx
+  version: 1.1.2
+  top-level:
+    - docx
+source:
+  url: https://files.pythonhosted.org/packages/py3/p/python_docx/python_docx-1.1.2-py3-none-any.whl
+  sha256: 08c20d6058916fb19853fcf080f7f42b6270d89eac9fa5f8c15f691c0017fabe
+requirements:
+  run:
+    - lxml
+    - typing-extensions
+about:
+  PyPI: https://pypi.org/project/python-docx
+  summary: Create, read, and update Microsoft Word .docx files.
+  license: MIT
+extra:
+  recipe-maintainers:
+    - PUT_YOUR_GITHUB_USERNAME_HERE
